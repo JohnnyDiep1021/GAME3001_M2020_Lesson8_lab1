@@ -102,6 +102,7 @@
     <ClCompile Include="..\src\Plane.cpp">
       <Filter>Game Objects</Filter>
     </ClCompile>
+    <ClCompile Include="..\Src\Obstacle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\StartScene.h">
@@ -214,6 +215,9 @@
     </ClInclude>
     <ClInclude Include="..\src\SoundType.h">
       <Filter>Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Obstacle.h">
+      <Filter>Game Objects</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
